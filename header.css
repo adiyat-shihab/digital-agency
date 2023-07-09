@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: rgb(217, 217, 217);
+}
+.list-container {
+  display: flex;
+  font-size: 20px;
+  list-style: none;
+}
+.list-item {
+  margin-right: 30px;
+}
+.section {
+  background-image: url("/image/background.jpg"),
+    linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+  background-blend-mode: overlay;
+  height: 100vh;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.primary-btn {
+  height: 50px;
+  width: 150px;
+  border: none;
+  margin-top: 30px;
+}
+.text {
+  background-color: red;
+  color: white;
+  margin-right: 30px;
+}
