@@ -1,0 +1,30 @@
+.footer-con {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fot-logo {
+  width: 150px;
+}
+.fot-list {
+  color: white;
+  margin-right: 50px;
+}
+.icon-img {
+  display: flex;
+  width: 50px;
+}
+.fot-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.fot-para {
+  margin-top: 10px;
+}
+.fot-head {
+  margin-bottom: 30px;
+}
